@@ -97,6 +97,7 @@ dependencies {
     implementation "androidx.compose.ui:ui-tooling-preview"
     debugImplementation "androidx.compose.ui:ui-tooling"
 
+    // compose 가 theme 공유할 수 있도록 처리하는 theme라이브러리
     implementation "com.google.accompanist:accompanist-themeadapter-material:0.30.1"
 
     // Testing dependencies
